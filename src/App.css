@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+
+.Form-Control{
+    width: 50%;
+
+}
+
+.input-group {
+  width: 90% !important;
+}
+
+.form-control {
+  width: 20% !important;
+}
