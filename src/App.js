@@ -67,19 +67,16 @@ function FormularioContacto() {
         <Form.Label>Género</Form.Label>
 
         {['checkbox'].map(type => (
-          <div key={`Sexo`} className="mb-3">
+          <div key={'Sexo'} className="mb-3">
             <Form.Check
               type={type}
-              id={`Hombre`}
-              label={`Hombre`}
-              inline label={"Hombre"}
+              id={'Hombre'}
+              label={'Hombre'}
             />
             <Form.Check
               type={type}
               id={`Mujer`}
               label={`Mujer`}
-              inline label={"Mujer"}
-
             />
           </div>
         ))}
